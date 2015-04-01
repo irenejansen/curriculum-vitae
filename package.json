@@ -1,0 +1,20 @@
+{
+  "name": "irene-cv",
+  "private": true,
+  "dependencies": {
+  },
+  "devDependencies": {
+    "grunt": "",
+    "grunt-contrib-compass": "",
+    "grunt-contrib-compress": "",
+    "grunt-contrib-connect": "",
+    "grunt-contrib-watch": "",
+    "grunt-contrib-jade": "",
+    "grunt-contrib-copy": "",
+    "grunt-notify": "",
+    "grunt-browserify": ""
+  },
+  "engines": {
+    "node": ">=0.12.0"
+  }
+}

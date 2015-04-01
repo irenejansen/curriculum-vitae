@@ -1,0 +1,125 @@
+@import "compass/reset"
+@import "compass/css3"
+@import "bootstrap/bootstrap-compass"
+@import "bootstrap/bootstrap"
+@import "bootstrap/variables"
+
+$lightgray: #F5F8FA
+$bordergray: darken($lightgray, 10%)
+
+body
+  background-color: $lightgray
+
+header
+  +box-shadow(darken($lightgray, 20%) 0px 3px 10px)
+  height: 470px
+  margin-bottom: 25px
+
+  .bg
+    position: absolute
+    z-index: 10
+    width: 100%
+    height: 400px
+    left: 0px
+    top: 0px
+    background-color: #F30
+
+    img
+      z-index: 10
+      width: 100%
+      height: 100%
+
+  div#header-text
+    z-index: 100
+    position: absolute
+    top: 50px
+    width: 100%
+
+    text-align: right
+    color: white
+
+    h1
+      font-size: 28pt
+      margin-bottom: 8px
+
+    h3
+      margin-top: 0px
+
+  .bar
+    position: absolute
+    z-index: 20
+    width: 100%
+    height: 70px
+    left: 0px
+    top: 400px
+    background-color: white
+    border-bottom: 1px solid $bordergray
+
+    .container
+      position: relative
+
+      img
+        position: absolute
+        left: 55px
+        top: -200px
+        height: 250px
+        width: 250px
+        border: 6px solid white
+        border-radius: 5px
+
+.content
+
+  .sidebox
+    background-color: #D4B0A7
+    min-height: 50px
+    padding: 15px
+    border-radius: 5px
+    border: 1px solid darken(#D4B0A7, 10%)
+    color: black
+    font-size: 13pt
+    margin-bottom: 15px
+
+    h3
+      color: darken(#D4B0A7, 30%)
+      font-weight: bold
+      margin: 0px
+        bottom: 5px
+
+  .box
+    background-color: white
+    border: 1px solid $bordergray
+    border-radius: 5px
+    margin-bottom: 15px
+
+    & > h4
+      padding: 15px
+      border-bottom: 1px solid $bordergray
+      color: #F30
+      width: 100%
+
+    .subbox
+      padding: 5px
+      margin: 10px
+
+      div.location
+        max-height: 30px
+        overflow: visible
+
+      h4
+        font-size: 12pt
+        font-weight: bold
+        color: black
+        border: none
+        margin-top: 0px
+
+      p
+        margin: 0px
+
+      i
+        margin:
+          top: 10px
+          bottom: 10px
+
+    .sep
+      width: 100%
+      border-bottom: 1px solid $bordergray
