@@ -1,5 +1,3 @@
-es6ify = require('es6ify');
-
 module.exports = function(grunt) {
 
   var ts_config = {
@@ -56,8 +54,8 @@ module.exports = function(grunt) {
     connect: {
       server: {
         options: {
-          port: 8000,
-          hostname: '*',
+          port: 8080,
+          hostname: process.env.IP,
           keepalive: true,
           base: 'dist',
           livereload: true
@@ -117,17 +115,8 @@ module.exports = function(grunt) {
     },
 
     browserify: {
-      options: {
-
-        transform: [
-          require('grunt-react').browserify,
-
-          es6ify.configure(/^(?!.*node_modules)+.+\.js$/)
-        ]
-      },
-
       client: {
-        src: [es6ify.runtime, 'app/scripts/main.js'],
+        src: ['app/scripts/main.js'],
         dest: 'dist/scripts/main.js'
       }
     },
