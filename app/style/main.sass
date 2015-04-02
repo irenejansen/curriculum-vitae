@@ -3,13 +3,20 @@
 @import "bootstrap/bootstrap-compass"
 @import "bootstrap/bootstrap"
 @import "bootstrap/variables"
+@import "fonts"
 
 $lightgray: #F5F8FA
 $bordergray: darken($lightgray, 10%)
 
 body
   background-color: $lightgray
+  font-family: RobotoDraft
+  font-weight: 300
+  font-size: 12pt
 
+h1, h2, h3, h4
+  font-family: Museo
+  
 header
   +box-shadow(darken($lightgray, 20%) 0px 3px 10px)
   height: 470px
@@ -76,14 +83,28 @@ header
     border-radius: 5px
     border: 1px solid darken(#D4B0A7, 10%)
     color: black
-    font-size: 13pt
     margin-bottom: 15px
-
+        
     h3
-      color: darken(#D4B0A7, 30%)
+      color: desaturate(darken(#D4B0A7, 50%), 20%)
       font-weight: bold
       margin: 0px
-        bottom: 5px
+        bottom: 15px
+  
+  div.sidebox.profile
+    li
+      line-height: 200%
+      
+  div.sidebox.competenties
+    li
+      list-style-type: circle
+      margin-left: 15px
+
+  div.sidebox.vakken
+    font-size: 10pt
+    li
+      list-style-type: disc
+      margin-left: 15px
 
   .box
     background-color: white
