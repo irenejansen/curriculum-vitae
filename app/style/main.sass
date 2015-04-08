@@ -8,6 +8,10 @@
 $lightgray: #F5F8FA
 $bordergray: darken($lightgray, 10%)
 
+em 
+  font-style: italic
+  color: #555
+
 body
   background-color: $lightgray
   font-family: RobotoDraft
@@ -16,7 +20,7 @@ body
 
 h1, h2, h3, h4
   font-family: Museo
-  
+
 header
   +box-shadow(darken($lightgray, 20%) 0px 3px 10px)
   height: 470px
@@ -73,6 +77,12 @@ header
         width: 250px
         border: 6px solid white
         border-radius: 5px
+        
+      button
+        position: absolute
+        right: 15px
+        top: 15px
+        height: 40px
 
 .content
 
@@ -95,15 +105,31 @@ header
     li
       line-height: 200%
       
+      i
+        margin-right: 7px
+      
   div.sidebox.competenties
     li
-      list-style-type: circle
+      list-style-type: none
+      margin-left: 0px
+      padding-left: 0px 
+      text-align: center
+
+  div.sidebox.vaardigheden
+    li
+      list-style-type: none
       margin-left: 15px
+      padding-left: 12px
+      
+      i
+        float: right
+        font-size: 90%
 
   div.sidebox.vakken
     font-size: 10pt
     li
-      list-style-type: disc
+      padding-left: 12px
+      list-style-type: circle
       margin-left: 15px
 
   .box
@@ -140,6 +166,7 @@ header
         margin:
           top: 10px
           bottom: 10px
+        float: right 
 
     .sep
       width: 100%
