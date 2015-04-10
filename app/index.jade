@@ -4,6 +4,7 @@ html
   head
     include ./head.jade
     link(href="style/main.css" rel="stylesheet")
+    script(src="http://code.jquery.com/jquery-1.11.2.min.js")
 
   body
 
@@ -23,47 +24,47 @@ html
           img(src="/resources/images/irene.jpg")
           a(href="mailto:irene_jansen@hotmail.nl?Subject=Hello%20again" target="_top")
             button(class="btn", data-action="bea")
-              b Mail mij! 
-          
+              b Mail mij!
+
     div.content.container
 
       div.row
 
         div.col-md-4
-          div.sidebox.profile
-            h3 Profiel
-            ul
+          div.box.profile
+            h4 Profiel
+            ul.content
               li
                 i.fa.fa-home.fa-fw &nbsp&nbsp
                 | Gouwestraat 10 // 2515 SN // Den Haag
-              li 
+              li
                 i.fa.fa-phone.fa-fw &nbsp&nbsp
                 | 0621184289
-              li 
+              li
                 i.fa.fa-envelope.fa-fw &nbsp&nbsp
                 | irene_jansen@hotmail.nl
-              li 
+              li
                 i.fa.fa-birthday-cake.fa-fw &nbsp&nbsp
                 | 01 maart 1993
 
-          div.sidebox.competenties
-            h3 Competenties
-            ul
+          div.box.competenties
+            h4 Competenties
+            ul.content
               li flexibel + zelfstandig
               li kritisch + nieuwsgierig
-              li brainstormtalent + creatief 
+              li brainstormtalent + creatief
               li organisatievermogen + doortastend
               li gepassioneerd
-              
-          div.sidebox.vaardigheden
-            h3 Vaardigheden
-            ul
-              li SPSS          
+
+          div.box.vaardigheden
+            h4 Vaardigheden
+            ul.content
+              li SPSS
                 i.fa.fa-circle-thin
                 i.fa.fa-circle
                 i.fa.fa-circle
                 i.fa.fa-circle
-                i.fa.fa-circle     
+                i.fa.fa-circle
               li Social Media &nbsp
                 i.fa.fa-circle-thin
                 i.fa.fa-circle
@@ -108,9 +109,10 @@ html
                 i.fa.fa-circle-thin
                 i.fa.fa-circle
 
-          div.sidebox.vakken
-            h3 Universitair afgeronde vakken 
-            ul
+          div.box.vakken
+            h4
+              | Universitair afgeronde vakken
+            ul.content
               li Digital Anthropology
               li Sub-Sahara Afrika
               li Veldwerk Nederland
@@ -133,8 +135,8 @@ html
               li Journalistieke en Redactionale Vaardigheden
               li Methoden en Theorieen van Journalism Studies
               li Internetjournalistiek
-              
-            
+
+
 
         div.col-md-8
           div.box
@@ -142,22 +144,24 @@ html
 
             div.subbox
               div.row
-                div.col-sm-9
-                  h4 BA Culturele Antropologie en Ontwikkelingssociologie
-                div.col-sm-3.location
+                div.col-xs-9
+                  h4
+                    img(alt="" src="/resources/images/leiden-uni.jpg")
+                    | BA Culturele Antropologie en Ontwikkelingssociologie
+                div.col-xs-3.location
                   i Leiden,
                     br
                     | 2012 - 2016
-              
+
               div.row
-                p.col-sm-9
+                p.col-xs-9
                   em Universiteit Leiden
                   br
                   br
-                  | Een antropoloog bestudeert het gedrag en de cultuur van verschillende groepen mensen. 
-                  br 
-                  | Zo leer je de wereld vanuit verschillende perspectieven te bekijken. 
-                  br 
+                  | Een antropoloog bestudeert het gedrag en de cultuur van verschillende groepen mensen.
+                  br
+                  | Zo leer je de wereld vanuit verschillende perspectieven te bekijken.
+                  br
                   | Als antropoloog wil ik mensen de andere kant van een verhaal laten zien.
                   br
                   br
@@ -171,9 +175,11 @@ html
 
             div.subbox
               div.row
-                div.col-sm-9
-                  h4 Minor Journalistiek en Nieuwe Media
-                div.col-sm-3.location
+                div.col-xs-9
+                  h4
+                    img(alt="" src="/resources/images/leiden-uni.jpg")
+                    | Minor Journalistiek en Nieuwe Media
+                div.col-xs-3.location
                   i Leiden,
                     br
                     | 2014 - 2015
@@ -185,9 +191,11 @@ html
 
             div.subbox
               div.row
-                div.col-sm-9
-                  h4 Cursus Creatief Schrijven
-                div.col-sm-3.location
+                div.col-xs-9
+                  h4
+                    img(alt="" src="/resources/images/leiden-uni.jpg")
+                    | Cursus Creatief Schrijven
+                div.col-xs-3.location
                   i Leiden,
                     br
                     | 2014
@@ -199,9 +207,11 @@ html
 
             div.subbox
               div.row
-                div.col-sm-9
-                  h4 EH Basisjaar
-                div.col-sm-3.location
+                div.col-xs-9
+                  h4
+                    img(alt="" src="/resources/images/eh.jpg")
+                    | EH Basisjaar
+                div.col-xs-3.location
                   i Amersfoort,
                     br
                     | 2011 - 2012
@@ -213,9 +223,11 @@ html
 
             div.subbox
               div.row
-                div.col-sm-9
-                  h4 Cursus Snellezen
-                div.col-sm-3.location
+                div.col-xs-9
+                  h4
+                    img(alt="" src="/resources/images/eh.jpg")
+                    | Cursus Snellezen
+                div.col-xs-3.location
                   i Amersfoort,
                     br
                     | 2012
@@ -227,9 +239,11 @@ html
 
             div.subbox
               div.row
-                div.col-sm-9
-                  h4 VWO Atheneum
-                div.col-sm-3.location
+                div.col-xs-9
+                  h4
+                    img(alt="" src="/resources/images/alkwin.png")
+                    | VWO Atheneum
+                div.col-xs-3.location
                   i Uithoorn,
                     br
                     | 2005 - 2011
@@ -245,9 +259,9 @@ html
 
             div.subbox
               div.row
-                div.col-sm-9
+                div.col-xs-9
                   h4 Servicemedewerker
-                div.col-sm-3.location
+                div.col-xs-3.location
                   i Woerden,
                     br
                     | 2010 - heden
@@ -259,9 +273,9 @@ html
 
             div.subbox
               div.row
-                div.col-sm-9
+                div.col-xs-9
                   h4 Voorlichtingsmedewerker Culturele Antropologie en Ontwikkelingssociologie
-                div.col-sm-3.location
+                div.col-xs-3.location
                   i Leiden,
                     br
                     | 2012 - 2013
@@ -273,9 +287,9 @@ html
 
             div.subbox
               div.row
-                div.col-sm-9
+                div.col-xs-9
                   h4 Overig
-                div.col-sm-3.location
+                div.col-xs-3.location
                   i Aalsmeer,
                     br
                     | 2005 - 2010
@@ -285,73 +299,96 @@ html
                 li Kasmedewerker; New Angela
                 li Krantenbezorger
 
-          div.box
-            h4 Vrijwilligerswerk
+          div.box.collapsable(data-collapsed="true")
+            h4.collapsable-trigger Vrijwilligerswerk
 
             div.subbox
               div.row
-                div.col-sm-9
+                div.col-xs-9
                   h4 Vrijwilliger en groepsleider hulpproject 'Hands of Hope'
-                div.col-sm-3.location
+                div.col-xs-3.location
                   i Woerden,
                     br
                     | 2012 - 2013
 
-              div.row
-                p.col-sm-9
+              div.row.collapsable-content
+                p.col-xs-9
                   | Werkzaamheden: Bedenken en organiseren van sponsoracties. Zo heb ik enkele succesvolle restaurantavonden georganiseerd om geld op te halen.
                   br
                   br
-                  | Daarnaast hebben we met het project geholpen bij de bouw van een pre-school in KwaNdebele, Zuid-Afrika. Ook hebben wij activiteiten georganiseerd voor de kinderen van het Care Centre dat er naast stond. 
-                  br 
-                  | Tevens heb ik tijdens het project een groep jongeren mogen begeleiden. 
+                  | Daarnaast hebben we met het project geholpen bij de bouw van een pre-school in KwaNdebele, Zuid-Afrika. Ook hebben wij activiteiten georganiseerd voor de kinderen van het Care Centre dat er naast stond.
+                  br
+                  | Tevens heb ik tijdens het project een groep jongeren mogen begeleiden.
 
             div.sep
 
             div.subbox
               div.row
-                div.col-sm-9
+                div.col-xs-9
                   h4 Redactrice en presentatrice 'Revival'
-                div.col-sm-3.location
+                div.col-xs-3.location
                   i Woerden,
                     br
                     | 2010 - 2012
 
-              p
-                | Zaterdagavondprogramma op radio RPL FM
+              div.row.collapsable-content
+                p.col-xs-9
+                  | Zaterdagavondprogramma op radio RPL FM
 
             div.sep
 
             div.subbox
               div.row
-                div.col-sm-9
+                div.col-xs-9
                   h4 Redactrice en presentatrice 'Music with a Message'
-                div.col-sm-3.location
+                div.col-xs-3.location
                   i Aalsmeer,
                     br
                     | 2008 - 2010
 
-              p
-                | Dinsdagavondprogramma op Radio Aalsmeer
+              div.row.collapsable-content
+                p.col-xs-9
+                  | Dinsdagavondprogramma op Radio Aalsmeer
 
             div.sep
 
             div.subbox
               div.row
-                div.col-sm-9
+                div.col-xs-9
                   h4 Overig
-                div.col-sm-3.location
+                div.col-xs-3.location
                   i Woerden,
                     br
                     | 2011 - 2014
 
-              ul
-                li Organisatie vrouwendag
-                li Adviseur organistie festival 'W-Celebrate'
-                li Voorlichtingsmedewerker Evangelische Hogeschool
-                li Jeugbeleid Commissie CGKV Woerden
-                li Fondsenwerving Commissie Jaarboek Evangelische Hogeschool
+              div.row.collapsable-content
+                ul.col-xs-9
+                  li Organisatie vrouwendag
+                  li Adviseur organistie festival 'W-Celebrate'
+                  li Voorlichtingsmedewerker Evangelische Hogeschool
+                  li Jeugbeleid Commissie CGKV Woerden
+                  li Fondsenwerving Commissie Jaarboek Evangelische Hogeschool
 
+    // some dynamic stuff
+    script.
+      // collapsable containers
+      $('.collapsable').each(function() {
+        function toggle(el, btn) {
+          content.toggle();
+          btn
+            .toggleClass("fa-angle-double-down")
+            .toggleClass("fa-angle-double-up");
+        }
 
+        var el = $(this);
+        var content = el.find('.collapsable-content');
+        var trigger = el.find('.collapsable-trigger');
+        var btn = $('<i class="fa fa-angle-double-up"/>');
+        btn.css({ float: 'right' });
 
-
+        // initial
+        trigger.append(btn);
+        if(el.data('collapsed')) { toggle(content, btn); }
+        // on click
+        trigger.on('click', function() { toggle(content, btn); });
+      });
