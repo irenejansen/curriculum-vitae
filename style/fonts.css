@@ -1,0 +1,16 @@
+@import url(http://fonts.googleapis.com/css?family=Lato:100,300,400,700);
+@import url(https://fonts.googleapis.com/css?family=RobotoDraft:400,500,700,300,400italic);
+@font-face {
+  font-family: "Museo";
+  src: url('/resources/fonts/museo_300_regular_web/Museo300-RegularWeb.eot?1427910096');
+  src: url('/resources/fonts/museo_300_regular_web/Museo300-RegularWeb.eot?&1427910096#iefix') format('embedded-opentype'), url('/resources/fonts/museo_300_regular_web/Museo300-RegularWeb.woff?1427910096') format('woff');
+  font-weight: 300;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Museo";
+  src: url('/resources/fonts/museo_500_regular_web/Museo500-RegularWeb.eot?1427910096');
+  src: url('/resources/fonts/museo_500_regular_web/Museo500-RegularWeb.eot?&1427910096#iefix') format('embedded-opentype'), url('/resources/fonts/museo_500_regular_web/Museo500-RegularWeb.woff?1427910096') format('woff');
+  font-weight: 500;
+  font-style: normal;
+}
