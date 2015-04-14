@@ -55,9 +55,9 @@ module.exports = function(grunt) {
       server: {
         options: {
           port: 8080,
-          hostname: process.env.IP,
+          hostname: '127.0.0.1',
           keepalive: true,
-          base: 'dist',
+          base: 'site',
           livereload: true
         }
       }
@@ -70,9 +70,9 @@ module.exports = function(grunt) {
             'app/style/bootstrap/'
           ],
           fontsDir: 'app/resources/fonts',
-          httpFontsDir: 'resources/fonts',
+          httpFontsDir: 'curriculum-vitae/resources/fonts',
           sassDir: 'app/style',
-          cssDir: 'dist/style',
+          cssDir: 'site/style',
         }
       }
     },
@@ -88,7 +88,7 @@ module.exports = function(grunt) {
         files: [{
           expand: true,
           src: ["*.jade", "views/**/*.jade"],
-          dest: "dist/",
+          dest: "site/",
           cwd: "app/",
           ext: '.html'
         }]
@@ -101,7 +101,7 @@ module.exports = function(grunt) {
           expand: true,
           src: ['**/*'],
           cwd: 'app/resources',
-          dest: 'dist/resources'
+          dest: 'site/resources'
         }]
       },
       html: {
@@ -109,7 +109,7 @@ module.exports = function(grunt) {
           expand: true,
           src: ['index.html', 'views/**/*.html'],
           cwd: 'app/',
-          dest: 'dist/'
+          dest: 'site/'
         }]
       }
     },
@@ -117,7 +117,7 @@ module.exports = function(grunt) {
     browserify: {
       client: {
         src: ['app/scripts/main.js'],
-        dest: 'dist/scripts/main.js'
+        dest: 'site/scripts/main.js'
       }
     },
 
@@ -129,7 +129,7 @@ module.exports = function(grunt) {
         files : [
           {
             expand: true,
-            cwd: 'dist',
+            cwd: 'site',
             src: [
               'images/**/*',
               'style/**/*.css',
