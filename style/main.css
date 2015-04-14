@@ -434,8 +434,8 @@ th {
 }
 @font-face {
   font-family: 'Glyphicons Halflings';
-  src: url(/resources/fonts/bootstrap/glyphicons-halflings-regular.eot?1427910096);
-  src: url(/resources/fonts/bootstrap/glyphicons-halflings-regular.eot?&1427910096#iefix) format("embedded-opentype"), url(/resources/fonts/bootstrap/glyphicons-halflings-regular.woff?1427910096) format("woff"), url(/resources/fonts/bootstrap/glyphicons-halflings-regular.ttf?1427910096) format("truetype"), url(/resources/fonts/bootstrap/glyphicons-halflings-regular.svg?1427910096#glyphicons_halflingsregular) format("svg");
+  src: url(/curriculum-vitae/resources/fonts/bootstrap/glyphicons-halflings-regular.eot?1427910096);
+  src: url(/curriculum-vitae/resources/fonts/bootstrap/glyphicons-halflings-regular.eot?&1427910096#iefix) format("embedded-opentype"), url(/curriculum-vitae/resources/fonts/bootstrap/glyphicons-halflings-regular.woff?1427910096) format("woff"), url(/curriculum-vitae/resources/fonts/bootstrap/glyphicons-halflings-regular.ttf?1427910096) format("truetype"), url(/curriculum-vitae/resources/fonts/bootstrap/glyphicons-halflings-regular.svg?1427910096#glyphicons_halflingsregular) format("svg");
 }
 /* line 25, ../../app/style/bootstrap/bootstrap/_glyphicons.scss */
 .glyphicon {
@@ -8094,15 +8094,15 @@ button.close {
 }
 @font-face {
   font-family: "Museo";
-  src: url('/resources/fonts/museo_300_regular_web/Museo300-RegularWeb.eot?1427910096');
-  src: url('/resources/fonts/museo_300_regular_web/Museo300-RegularWeb.eot?&1427910096#iefix') format('embedded-opentype'), url('/resources/fonts/museo_300_regular_web/Museo300-RegularWeb.woff?1427910096') format('woff');
+  src: url('/curriculum-vitae/resources/fonts/museo_300_regular_web/Museo300-RegularWeb.eot?1427910096');
+  src: url('/curriculum-vitae/resources/fonts/museo_300_regular_web/Museo300-RegularWeb.eot?&1427910096#iefix') format('embedded-opentype'), url('/curriculum-vitae/resources/fonts/museo_300_regular_web/Museo300-RegularWeb.woff?1427910096') format('woff');
   font-weight: 300;
   font-style: normal;
 }
 @font-face {
   font-family: "Museo";
-  src: url('/resources/fonts/museo_500_regular_web/Museo500-RegularWeb.eot?1427910096');
-  src: url('/resources/fonts/museo_500_regular_web/Museo500-RegularWeb.eot?&1427910096#iefix') format('embedded-opentype'), url('/resources/fonts/museo_500_regular_web/Museo500-RegularWeb.woff?1427910096') format('woff');
+  src: url('/curriculum-vitae/resources/fonts/museo_500_regular_web/Museo500-RegularWeb.eot?1427910096');
+  src: url('/curriculum-vitae/resources/fonts/museo_500_regular_web/Museo500-RegularWeb.eot?&1427910096#iefix') format('embedded-opentype'), url('/curriculum-vitae/resources/fonts/museo_500_regular_web/Museo500-RegularWeb.woff?1427910096') format('woff');
   font-weight: 500;
   font-style: normal;
 }
