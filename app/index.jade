@@ -139,8 +139,8 @@ html
 
 
         div.col-md-8
-          div.box
-            h4 Educatie
+          div.box.collapsable(data-collapsed="true")
+            h4.collapsable-trigger Educatie
 
             div.subbox
               div.row
@@ -157,7 +157,9 @@ html
               div.row
                 p.col-xs-9
                   em Universiteit Leiden
-                  br
+
+              div.row.collapsable-content
+                p.col-xs-9
                   br
                   | Een antropoloog bestudeert het gedrag en de cultuur van verschillende groepen mensen.
                   br
@@ -265,7 +267,7 @@ html
             div.subbox
               div.row
                 div.col-xs-9
-                  h4 
+                  h4
                     img(alt="" src="http://www.blr-bimon.nl/files/3913/7760/7681/LogoAnnexCinema.png")
                     a(href="http://annexcinema.nl/" target="blank")
                       b Servicemedewerker
@@ -282,7 +284,7 @@ html
             div.subbox
               div.row
                 div.col-xs-9
-                  h4 
+                  h4
                     img(alt="" src="/resources/images/leiden-uni.jpg")
                     | Voorlichtingsmedewerker Culturele Antropologie en Ontwikkelingssociologie
                 div.col-xs-3.location
@@ -315,7 +317,7 @@ html
             div.subbox
               div.row
                 div.col-xs-9
-                  h4 
+                  h4
                     img(alt="" src="https://fbcdn-sphotos-h-a.akamaihd.net/hphotos-ak-xfa1/t31.0-8/664809_450937114953219_1842591485_o.jpg")
                     | Vrijwilliger en groepsleider hulpproject 'Hands of Hope'
                 div.col-xs-3.location
@@ -337,7 +339,7 @@ html
             div.subbox
               div.row
                 div.col-xs-9
-                  h4 
+                  h4
                     img(alt="" src="https://pbs.twimg.com/profile_images/378800000790631211/46ec13ef33227131e12701dd205cb597_400x400.jpeg")
                     a(href="http://rplfm.nl/" target="blank")
                       b Redactrice en presentatrice 'Revival'
@@ -355,7 +357,7 @@ html
             div.subbox
               div.row
                 div.col-xs-9
-                  h4 
+                  h4
                     img(alt="" src="http://www.pieterjanssen.eu/cms/wp-content/uploads/Logo-Radio-Aalsmeer.png")
                     a(href="http://radioaalsmeer.nl/" target="blank")
                       b Redactrice en presentatrice 'Music with a Message'
