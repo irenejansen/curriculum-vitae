@@ -22,7 +22,7 @@ html
       div.bar
         div.container
           img(src="resources/images/irene.jpg")
-          a(href="mailto:irene_jansen@hotmail.nl" target="_top")
+          a(onclick="bericht()" target="_top")
             button(class="btn", data-action="bea")
               b Mail mij!
 
@@ -35,14 +35,8 @@ html
             h4 Profiel
             ul.content
               li
-                i.fa.fa-home.fa-fw &nbsp&nbsp
-                | Gouwestraat 10 // 2515 SN // Den Haag
-              li
-                i.fa.fa-phone.fa-fw &nbsp&nbsp
-                | 0621184289
-              li
                 i.fa.fa-envelope.fa-fw &nbsp&nbsp
-                | irene_jansen@hotmail.nl
+                | irene_jansen <i class="invisible">no-sp-am</i> <i> at </i> hotmail <i> dot </i> nl
               li
                 i.fa.fa-birthday-cake.fa-fw &nbsp&nbsp
                 | 01 maart 1993 // Pretoria // Zuid-Afrika
@@ -379,19 +373,34 @@ html
 
     // some dynamic stuff
     script.
+      function bericht() {
+        function _rev(s) {
+          return s.split('').reverse().join('');
+        }
+        window.open(_rev("ln.liamtoh@nesnaj_eneri:otliam"));
+      }
+
       // collapsable containers
       $('.collapsable').each(function() {
         function toggle(el, btn) {
           content.toggle();
-          btn
+          var icon = btn.find('i');
+          var text = btn.find('.btn-text');
+          icon
             .toggleClass("fa-angle-double-down")
             .toggleClass("fa-angle-double-up");
+
+          if(icon.hasClass('fa-angle-double-up')) {
+            text.html("(minder info)&nbsp;");
+          } else {
+            text.html("(meer info)&nbsp;");
+          }
         }
 
         var el = $(this);
         var content = el.find('.collapsable-content');
         var trigger = el.find('.collapsable-trigger');
-        var btn = $('<i class="fa fa-angle-double-up"/>');
+        var btn = $('<span><span class="btn-text small">(minder info)</span><i class="fa fa-angle-double-up"/></span>');
         btn.css({ float: 'right' });
 
         // initial
