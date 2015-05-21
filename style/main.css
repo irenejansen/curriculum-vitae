@@ -8113,6 +8113,15 @@ em {
 }
 
 /* line 15, ../../app/style/main.sass */
+i {
+  font-style: italic;
+}
+/* line 18, ../../app/style/main.sass */
+i.invisible {
+  display: none;
+}
+
+/* line 20, ../../app/style/main.sass */
 body {
   background-color: #F5F8FA;
   font-family: RobotoDraft;
@@ -8120,19 +8129,19 @@ body {
   font-size: 12pt;
 }
 
-/* line 21, ../../app/style/main.sass */
+/* line 26, ../../app/style/main.sass */
 h1, h2, h3, h4 {
   font-family: Museo;
 }
 
-/* line 24, ../../app/style/main.sass */
+/* line 29, ../../app/style/main.sass */
 header {
   -webkit-box-shadow: #b1c8d8 0px 3px 10px;
   box-shadow: #b1c8d8 0px 3px 10px;
   height: 470px;
   margin-bottom: 25px;
 }
-/* line 29, ../../app/style/main.sass */
+/* line 34, ../../app/style/main.sass */
 header .bg {
   position: absolute;
   z-index: 10;
@@ -8142,13 +8151,13 @@ header .bg {
   top: 0px;
   background-color: #F30;
 }
-/* line 38, ../../app/style/main.sass */
+/* line 43, ../../app/style/main.sass */
 header .bg img {
   z-index: 10;
   width: 100%;
   height: 100%;
 }
-/* line 43, ../../app/style/main.sass */
+/* line 48, ../../app/style/main.sass */
 header div#header-text {
   z-index: 100;
   position: absolute;
@@ -8157,16 +8166,16 @@ header div#header-text {
   text-align: right;
   color: white;
 }
-/* line 52, ../../app/style/main.sass */
+/* line 57, ../../app/style/main.sass */
 header div#header-text h1 {
   font-size: 28pt;
   margin-bottom: 8px;
 }
-/* line 56, ../../app/style/main.sass */
+/* line 61, ../../app/style/main.sass */
 header div#header-text h3 {
   margin-top: 0px;
 }
-/* line 59, ../../app/style/main.sass */
+/* line 64, ../../app/style/main.sass */
 header .bar {
   position: absolute;
   z-index: 20;
@@ -8177,11 +8186,11 @@ header .bar {
   background-color: white;
   border-bottom: 1px solid #d3e0e9;
 }
-/* line 69, ../../app/style/main.sass */
+/* line 74, ../../app/style/main.sass */
 header .bar .container {
   position: relative;
 }
-/* line 72, ../../app/style/main.sass */
+/* line 77, ../../app/style/main.sass */
 header .bar .container img {
   position: absolute;
   left: 55px;
@@ -8191,7 +8200,7 @@ header .bar .container img {
   border: 6px solid white;
   border-radius: 5px;
 }
-/* line 81, ../../app/style/main.sass */
+/* line 86, ../../app/style/main.sass */
 header .bar .container button {
   position: absolute;
   right: 15px;
@@ -8199,7 +8208,7 @@ header .bar .container button {
   height: 40px;
 }
 
-/* line 89, ../../app/style/main.sass */
+/* line 94, ../../app/style/main.sass */
 .content .sidebox {
   background-color: #D4B0A7;
   min-height: 50px;
@@ -8209,51 +8218,51 @@ header .bar .container button {
   color: black;
   margin-bottom: 15px;
 }
-/* line 98, ../../app/style/main.sass */
+/* line 103, ../../app/style/main.sass */
 .content .sidebox h3 {
   color: #473935;
   font-weight: bold;
   margin: 0px;
   margin-bottom: 15px;
 }
-/* line 105, ../../app/style/main.sass */
+/* line 110, ../../app/style/main.sass */
 .content div.sidebox.profile li {
   line-height: 200%;
 }
-/* line 108, ../../app/style/main.sass */
+/* line 113, ../../app/style/main.sass */
 .content div.sidebox.profile li i {
   margin-right: 7px;
 }
-/* line 112, ../../app/style/main.sass */
+/* line 117, ../../app/style/main.sass */
 .content div.sidebox.competenties li {
   list-style-type: none;
   margin-left: 0px;
   padding-left: 0px;
   text-align: center;
 }
-/* line 120, ../../app/style/main.sass */
+/* line 125, ../../app/style/main.sass */
 .content .vaardigheden li i {
   float: right;
   font-size: 90%;
 }
-/* line 124, ../../app/style/main.sass */
+/* line 129, ../../app/style/main.sass */
 .content div.sidebox.vakken {
   font-size: 10pt;
 }
-/* line 126, ../../app/style/main.sass */
+/* line 131, ../../app/style/main.sass */
 .content div.sidebox.vakken li {
   padding-left: 12px;
   list-style-type: circle;
   margin-left: 15px;
 }
-/* line 131, ../../app/style/main.sass */
+/* line 136, ../../app/style/main.sass */
 .content .box {
   background-color: white;
   border: 1px solid #d3e0e9;
   border-radius: 5px;
   margin-bottom: 15px;
 }
-/* line 137, ../../app/style/main.sass */
+/* line 142, ../../app/style/main.sass */
 .content .box img {
   display: inline;
   vertical-align: middle;
@@ -8261,28 +8270,28 @@ header .bar .container button {
   max-height: 30px;
   margin-right: 10px;
 }
-/* line 144, ../../app/style/main.sass */
+/* line 149, ../../app/style/main.sass */
 .content .box > h4 {
   padding: 15px;
   border-bottom: 1px solid #d3e0e9;
   color: #F30;
   width: 100%;
 }
-/* line 151, ../../app/style/main.sass */
+/* line 156, ../../app/style/main.sass */
 .content .box .content {
   padding: 15px;
 }
-/* line 154, ../../app/style/main.sass */
+/* line 159, ../../app/style/main.sass */
 .content .box .subbox {
   padding: 5px;
   margin: 10px;
 }
-/* line 158, ../../app/style/main.sass */
+/* line 163, ../../app/style/main.sass */
 .content .box .subbox div.location {
   max-height: 30px;
   overflow: visible;
 }
-/* line 162, ../../app/style/main.sass */
+/* line 167, ../../app/style/main.sass */
 .content .box .subbox h4 {
   font-size: 12pt;
   font-weight: bold;
@@ -8290,20 +8299,20 @@ header .bar .container button {
   border: none;
   margin-top: 0px;
 }
-/* line 169, ../../app/style/main.sass */
+/* line 174, ../../app/style/main.sass */
 .content .box .subbox h4 a {
   color: black;
 }
-/* line 171, ../../app/style/main.sass */
+/* line 176, ../../app/style/main.sass */
 .content .box .subbox h4 a:hover {
   color: #F30;
   text-decoration: underline;
 }
-/* line 175, ../../app/style/main.sass */
+/* line 180, ../../app/style/main.sass */
 .content .box .subbox p {
   margin: 0px;
 }
-/* line 178, ../../app/style/main.sass */
+/* line 183, ../../app/style/main.sass */
 .content .box .subbox i {
   margin-top: 10px;
   margin-bottom: 10px;
@@ -8311,7 +8320,7 @@ header .bar .container button {
   color: #555;
   font-size: 10pt;
 }
-/* line 186, ../../app/style/main.sass */
+/* line 191, ../../app/style/main.sass */
 .content .box .sep {
   width: 100%;
   border-bottom: 1px solid #d3e0e9;
